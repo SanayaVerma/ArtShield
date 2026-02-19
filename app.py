@@ -220,7 +220,7 @@ The concepts simulated in this project are based on the groundbreaking work by t
 * **Glaze (Style Protection):** [https://glaze.cs.uchicago.edu/](https://glaze.cs.uchicago.edu/)
 * **Nightshade (Data Poisoning):** [https://nightshade.cs.uchicago.edu/](https://nightshade.cs.uchicago.edu/)
 
-*Credits to Professor Ben Zhao and the entire UChicago research team for pioneering these tools for digital artists.*
+*Credits to the UChicago research team for pioneering these tools for digital artists.*
 """)
 
 st.divider()
