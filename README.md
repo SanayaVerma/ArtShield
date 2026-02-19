@@ -13,9 +13,11 @@ ArtShield: GenAI Protection Simulator is an interactive educational web app desi
 To prove these defenses work, ArtShield integrates directly with the live DALL-E 3 API. By asking the generative AI to reproduce the images, the app visually demonstrates the "cat-and-mouse" game of cybersecurity: the Glazed image forces the AI to generate art in the wrong style, and the Nightshaded image causes a total conceptual collapse, proving that artists can successfully engineer vulnerabilities into AI models to protect their work.
 
 ## Links
-### •	Project URL: https://artshield.streamlit.app/ 
-### •	GitHub Repository: https://github.com/SanayaVerma/ArtShield 
-### •	Demo Video: https://youtu.be/Blq18LMJiAc 
+•	Project URL: https://artshield.streamlit.app/ 
+
+•	GitHub Repository: https://github.com/SanayaVerma/ArtShield 
+
+•	Demo Video: https://youtu.be/Blq18LMJiAc 
 
 ## Credits
 •	Research Inspiration: The groundbreaking AI cybersecurity research by the SAND Lab at the University of Chicago (Professor Ben Zhao and team) for pioneering the original Glaze and Nightshade tools.
