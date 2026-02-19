@@ -66,7 +66,7 @@ st.write("Select an image from the catalog below, or upload your own.")
 # Catalog Data with specific hardcoded descriptions for Step 3
 catalog_data = {
     "City": {
-        "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=600&h=400&fit=crop",
+        "url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&h=400&fit=crop",
         "orig": "A bustling modern city skyline at sunset with towering glass skyscrapers.",
         "glazed": "A rough, highly detailed charcoal sketch of a city skyline. The drawing uses heavy black strokes, intense smudged shading, and gritty textures to depict buildings.",
         "nightshade": "A deep space nebula filled with swirling purple galaxies and bright twinkling stars."
