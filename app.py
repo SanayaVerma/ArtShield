@@ -112,6 +112,8 @@ for i, col in enumerate(cols):
         if st.button(f"Select {key}", key=f"btn_{i}", use_container_width=True):
             st.session_state.selected_key = key
 
+# Process Image and Description Logic
+target_size = (600, 400)
 original_img = load_image_from_url(catalog_data[st.session_state.selected_key]["url"]).resize(target_size)
 current_desc = catalog_data[st.session_state.selected_key]
 st.info(f"Using catalog image: {st.session_state.selected_key}.")
