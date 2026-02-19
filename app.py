@@ -97,12 +97,6 @@ catalog_data = {
     }   
 }
 
-fallback_data = {
-    "orig": "A detailed photograph of the uploaded scene.",
-    "glazed": "A heavily shaded, rough charcoal sketch of the uploaded scene. It features thick black strokes, smudged shadows, and a raw, gritty texture on coarse paper.",
-    "nightshade": "A vibrant underwater coral reef filled with neon-colored tropical fish and sea turtles."
-}
-
 catalog_keys = list(catalog_data.keys())
 
 # Track selected image in session state
@@ -117,20 +111,6 @@ for i, col in enumerate(cols):
         st.image(catalog_data[key]["url"], use_column_width=True)
         if st.button(f"Select {key}", key=f"btn_{i}", use_container_width=True):
             st.session_state.selected_key = key
-
-st.write("---")
-uploaded_file = st.file_uploader("Or upload your own image (JPG/PNG)", type=["jpg", "jpeg", "png"])
-
-# Process Image and Description Logic
-target_size = (600, 400)
-if uploaded_file is not None:
-    original_img = Image.open(uploaded_file).convert("RGB").resize(target_size)
-    current_desc = fallback_data
-    st.success("Using uploaded image!")
-else:
-    original_img = load_image_from_url(catalog_data[st.session_state.selected_key]["url"]).resize(target_size)
-    current_desc = catalog_data[st.session_state.selected_key]
-    st.info(f"Using catalog image: {st.session_state.selected_key}.")
 
 st.divider()
 
