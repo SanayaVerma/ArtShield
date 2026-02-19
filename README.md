@@ -20,7 +20,10 @@ To prove these defenses work, ArtShield integrates directly with the live DALL-E
 •	Demo Video: https://youtu.be/Blq18LMJiAc 
 
 ## Credits
-•	Research Inspiration: The groundbreaking AI cybersecurity research by the SAND Lab at the University of Chicago (Professor Ben Zhao and team) for pioneering the original Glaze and Nightshade tools.
+•	Research Inspiration: The groundbreaking AI cybersecurity research by the SAND Lab at the University of Chicago for pioneering the original Glaze and Nightshade tools.
+
+Nightshade: https://nightshade.cs.uchicago.edu/whatis.html 
+
+Glaze: https://glaze.cs.uchicago.edu/ 
 
 •	Development Assistance: Usage of Gemini for vibe coding and report generation.
-
